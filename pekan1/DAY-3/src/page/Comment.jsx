@@ -1,18 +1,15 @@
+import Avatar from "./Avatar";
+import UserInfo from "./UserInfo";
 
-import UserInfo from './UserInfo';
-
-function Comment({ author, text, date }) {
+function Comment() {
   return (
-    <div className="Comment" style={{ border: '1px solid #eee', padding: '15px', margin: '10px', borderRadius: '5px' }}>
-      <UserInfo user={author} />
-      <div className="Comment-text">
-        {text}
-      </div>
-      <div className="Comment-date" style={{ fontSize: '0.8em', color: '#666' }}>
-        {date.toLocaleDateString()}
-      </div>
+    <div className="border rounded-xl p-4 mb-4 max-w-md shadow">
+      <UserInfo name="Zahran" />
+      <p className="text-gray-700 mt-2">
+        Ini adalah contoh komentar menggunakan komposisi komponen.
+      </p>
     </div>
-  );
+  )
 }
 
 export default Comment;
