@@ -1,14 +1,12 @@
+import Avatar from "./Avatar";
 
-
-import Avatar from './Avatar';
-
-function UserInfo({ user }) {
+function UserInfo({ name }) {
   return (
-    <div className="UserInfo">
-      <Avatar user={user} />
-      <div className="UserInfo-name">{user.name}</div>
+    <div className="flex items-center">
+      <Avatar />
+      <span className="font-semibold">{name}</span>
     </div>
-  );
+  )
 }
 
 export default UserInfo;
