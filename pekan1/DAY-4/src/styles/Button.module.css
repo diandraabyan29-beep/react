@@ -1,0 +1,15 @@
+.button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.default {
+  background-color: #e5e7eb;
+}
+
+.primary {
+  background-color: #2563eb;
+  color: white;
+}
