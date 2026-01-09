@@ -1,0 +1,15 @@
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+button {
+  margin-right: 5px;
+}
